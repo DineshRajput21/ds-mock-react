@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>System Icon / User Actions / Designs / Download</title>
+    <g id="System-Icon-/-User-Actions-/-Designs-/-Download" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Download" fill="#004FB6">
+            <path d="M0,11 L2,11 L2,16 L18,16 L18,11 L20,11 L20,18 L0,18 L0,11 Z" id="Combined-Shape"></path>
+            <path d="M11,0 L10.999,9.318 L15.3543526,4.99508176 L16.7634262,6.41441676 L10.0179109,13.1111633 L3.45000005,6.34279949 L4.88530804,4.94999981 L8.99900005,9.189 L9,0 L11,0 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

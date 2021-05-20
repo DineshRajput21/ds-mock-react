@@ -1,0 +1,9 @@
+.aviva-header {
+  background-color: #ffd900  !important;
+  position: relative !important;
+  box-shadow:none  !important
+}
+.aviva-header-image {
+  width: 85.8% !important;
+  margin: 0 auto;
+}

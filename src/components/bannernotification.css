@@ -1,0 +1,26 @@
+.banner-container {
+    padding: 15px;
+    display: flex !important;
+    align-items: center;
+    margin-left:0 !important;
+}
+#banner-icon {
+    margin-right: 20px;
+    background-color: transparent !important;
+}
+#banner-icon img, #banner-icon svg {
+    background-color: transparent !important;
+}
+.banner-description {
+    width:85%;
+    color: #5c596d !important;
+    line-height: 24px!important;
+    font-family: Source Sans Pro,san-serif!important;
+    margin: 0;
+}
+.banner-icon {
+    display: inline-block !important;
+}
+.banner-icon-remove {
+    display: none  !important;
+}

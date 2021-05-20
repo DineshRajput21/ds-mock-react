@@ -1,0 +1,393 @@
+@import 'assets/fonts/googlefont.css';
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-base.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-base.woff) format('woff');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-base.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-base.woff) format('woff');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-latin.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-latin.woff) format('woff');
+    unicode-range: u+100-24f;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-latin.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-latin.woff) format('woff');
+    unicode-range: u+100-24f;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-currency.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-currency.woff) format('woff');
+    unicode-range: u+20a0-20bf;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-currency.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-currency.woff) format('woff');
+    unicode-range: u+20a0-20bf;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-extra.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-extra.woff) format('woff');
+    unicode-range: u+2028-204f, u+2070-209f, u+2150-218f;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-extra.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-extra.woff) format('woff');
+    unicode-range: u+2028-204f, u+2070-209f, u+2150-218f;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-other.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-roman-other.woff) format('woff');
+    unicode-range: u+250-2af, u+370-3ef, u+400-47f, u+490-4ff, u+1d40-1d5f, u+1d90-1dbf, u+1e00-1e6f, u+1e80-1fff, u+2110-212f, u+2190-231f, u+2e20-2e3f;
+  }
+  @font-face {
+    font-display: swap;
+    font-family: source_sans_pro_vf;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-other.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-variable-italic-other.woff) format('woff');
+    unicode-range: u+250-2af, u+370-3ef, u+400-47f, u+490-4ff, u+1d40-1d5f, u+1d90-1dbf, u+1e00-1e6f, u+1e80-1fff, u+2110-212f, u+2190-231f, u+2e20-2e3f;
+  }
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 700;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-base.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-base.woff) format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 700;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-latin.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-latin.woff) format('woff');
+  unicode-range: u+100-24f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 700;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-currency.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-currency.woff) format('woff');
+  unicode-range: u+20a0-20bf;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 700;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-extra.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-extra.woff) format('woff');
+  unicode-range: u+2010-204f, u+2070-209f, u+2150-218f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 700;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-other.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-bold-webfont-other.woff) format('woff');
+  unicode-range: u+250-2af, u+370-3ef, u+400-47f, u+490-4ff, u+1d40-1d5f, u+1d90-1dbf, u+1e00-1e6f, u+1e80-1fff, u+2110-212f, u+2190-231f, u+2e20-2e3f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 600;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-base.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-base.woff) format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 600;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-latin.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-latin.woff) format('woff');
+  unicode-range: u+100-24f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 600;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-currency.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-currency.woff) format('woff');
+  unicode-range: u+20a0-20bf;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 600;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-extra.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-extra.woff) format('woff');
+  unicode-range: u+2010-204f, u+2070-209f, u+2150-218f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 600;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-other.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-semibold-webfont-other.woff) format('woff');
+  unicode-range: u+250-2af, u+370-3ef, u+400-47f, u+490-4ff, u+1d40-1d5f, u+1d90-1dbf, u+1e00-1e6f, u+1e80-1fff, u+2110-212f, u+2190-231f, u+2e20-2e3f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 400;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-base.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-base.woff) format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 400;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-latin.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-latin.woff) format('woff');
+  unicode-range: u+100-24f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 400;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-currency.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-currency.woff) format('woff');
+  unicode-range: u+20a0-20bf;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 400;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-extra.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-extra.woff) format('woff');
+  unicode-range: u+2010-204f, u+2070-209f, u+2150-218f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 400;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-other.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-regular-webfont-other.woff) format('woff');
+  unicode-range: u+250-2af, u+370-3ef, u+400-47f, u+490-4ff, u+1d40-1d5f, u+1d90-1dbf, u+1e00-1e6f, u+1e80-1fff, u+2110-212f, u+2190-231f, u+2e20-2e3f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 300;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-base.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-base.woff) format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 300;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-latin.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-latin.woff) format('woff');
+  unicode-range: u+100-24f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 300;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-currency.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-currency.woff) format('woff');
+  unicode-range: u+20a0-20bf;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 300;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-extra.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-extra.woff) format('woff');
+  unicode-range: u+2010-204f, u+2070-209f, u+2150-218f;
+}
+@font-face {
+  font-display: swap;
+  font-family: source_sans_pro;
+  font-weight: 300;
+  src: url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-other.woff2) format('woff2'), url(https://static.aviva.io/assets/fonts/sourcesanspro-light-webfont-other.woff) format('woff');
+  unicode-range: u+250-2af, u+370-3ef, u+400-47f, u+490-4ff, u+1d40-1d5f, u+1d90-1dbf, u+1e00-1e6f, u+1e80-1fff, u+2110-212f, u+2190-231f, u+2e20-2e3f;
+}
+
+body {
+  margin: 0;
+  font-family: source_sans_pro_vf,-apple-system, system-ui,sans-serif !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root * {
+  font-family: source_sans_pro_vf,-apple-system, system-ui,sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.MuiCollapse-container {
+  margin-bottom: 8px;
+}
+
+.MuiDivider-middle {
+  margin: 20px 0 0 !important;
+}
+
+#root .MuiCollapse-container {
+  transition: margin-top 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+p + .MuiCollapse-container {
+  margin-top: 30px;
+}
+p + .MuiCollapse-hidden {
+  margin-top: 0;
+}
+
+#root .MuiAlert-root {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#root *,
+#root p,
+#root li,
+#root img,
+#root .MuiGrid-item { 
+  user-select: none;
+}
+#root input { user-select:auto; }
+
+@media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: black;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body, #root * {
+      background-color: black;
+      color: white !important;
+  }
+  #root .MuiPaper-elevation1, #root .MuiPaper-elevation1 * { 
+    background-color: #333;
+    box-shadow: none !important;
+  }
+  #root .MuiButton-label {
+    background-color: transparent;
+    color: #004fb6 !important;
+  }
+  #root .MuiButtonBase-root.Mui-disabled,
+  #root .MuiButtonBase-root.Mui-disabled .MuiButton-label {
+    background-color: #ccc!important;
+  }
+
+  #root .MuiAlert-root {
+    background-color: black!important;
+  }
+  #root .MuiGrid-root,
+  #root .MuiGrid-root *,
+  #root .MuiPaper-elevation1 *,
+  #root .MuiTouchRipple-root, 
+  #root .MuiToggleButton-label,
+  #root .MuiToggleButton-label div {
+    background-color: transparent;
+  }
+
+  #root .banner-description { 
+    background-color: rgb(236, 248, 255) !important;
+    color: #5c596d !important;
+  }
+  #root .banner-icon {
+    background-color: transparent !important;
+    color: black !important;
+  }
+
+  #root #section_payment .MuiContainer-maxWidthLg {
+    background-color: #004fb6;
+  }
+
+  #root #section_payment .MuiFormControlLabel-root {
+    background-color: transparent !important;
+  }
+}
+
+.formality__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formality__main {
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  order: 1;
+  position: relative;
+}
+.formality__section {
+  flex-wrap: wrap;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.formality__section--active {
+  opacity: 1;
+  position: relative;
+  pointer-events: all;
+  padding-bottom: 0!important;
+  transition: padding .15s ease-in-out;
+}
+.moveFromLeft {
+  animation: moveFromLeft .25s ease both;
+}
+.moveFromRight {
+  animation: moveFromRight .25s ease both;
+}
+.moveToLeft {
+  animation: moveToLeft .25s ease both;
+}
+.moveToRight {
+  animation: moveToRight .25s ease both;
+}
+
+@keyframes moveToLeft{
+  0%{
+      opacity:1
+  }
+  to{
+      transform:translateX(-25%);
+      opacity:0
+  }
+}
+@keyframes moveFromLeft{
+  0%{
+      transform:translateX(-25%);
+      opacity:0
+  }
+  to{
+      opacity:1
+  }
+}
+@keyframes moveToRight{
+  0%{
+      opacity:1
+  }
+  to{
+      transform:translateX(25%);
+      opacity:0
+  }
+}
+@keyframes moveFromRight{
+  0%{
+      transform:translateX(25%);
+      opacity:0
+  }
+  to{
+      opacity:1
+  }
+}

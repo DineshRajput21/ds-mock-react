@@ -1,0 +1,43 @@
+.datebox-layout {
+    max-width: 320px;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    place-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.datebox-label {
+    margin-bottom: 15px;
+    color:#5c596d;
+}
+.textbox-date {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    border-radius: .25em;
+    box-shadow: inset 0 2px 2px 0 hsl(0deg 0% 80% / 50%);
+    color: #444;
+    display: block;
+    height: 3.125em;
+    line-height: 1.5em;
+    max-width: 100%;
+    padding: .75em 1.25em;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    font-size: 16px  !important;
+    text-align: center;
+    margin-right: 1em!important;
+    margin-left: 0!important;
+}
+.textbox-date-bg {
+    border: solid 1px #aaaaaa;      
+}
+.textbox-date-bg-error {
+    border: solid 1px #bd2624;     
+}
